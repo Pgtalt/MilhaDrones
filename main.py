@@ -18,7 +18,7 @@ def main():
             elif decisao == 2:
                 visualizador.gerar_grafico_velocidade()
             elif decisao == 3:
-                TesteGraficoBarras.exibir()
+                ...
                 #visualizador.gerar_grafico_consumo()
             elif decisao == 4:
                 visualizador.gerar_grafico_distribuicao_espacial()
