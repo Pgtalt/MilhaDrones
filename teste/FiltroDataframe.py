@@ -1,6 +1,6 @@
 import pandas as pd
 
-class ProcessamentoXlsx:
+class FiltroDataframe:
     def __init__(self, dataframe):
         if not isinstance(dataframe, pd.DataFrame):
             raise Exception("Não é um Dataframe!")
