@@ -1,4 +1,3 @@
-from teste.TesteGraficoBarras import TesteGraficoBarras
 from view.visualizador import Visualizador
 
 def main():
