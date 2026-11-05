@@ -26,11 +26,13 @@ class GraficosExcel:
 
         x = self.__serie
         y = self.__coluna
+        print(x , "\n\n\n", y)
         plt.plot(x, y)
 
         plt.xlabel(titulo_x)
         plt.ylabel(titulo_y)
         plt.title(titulo)
+        #plt.axis(min(x), max(x), 0, 100)
         #plt.axis((min(x), max(x), 0, max(n)+min(n)))
         return plt
 

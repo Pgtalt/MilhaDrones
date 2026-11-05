@@ -13,8 +13,7 @@ class FiltroDataframe:
         if planilha:
             if isinstance(coluna, str):
                 return self.dataframe[planilha][coluna]
-        else:
-            return pd.DataFrame({
+        return pd.DataFrame({
                 nome_planilha: df[coluna]
                 for nome_planilha, df in self.dataframe.items()
                 if coluna in df.columns
